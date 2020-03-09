@@ -5,7 +5,7 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
 
   /*** Countdown Timer */
   $("#days")
-  .countdown("2020/10/27", function (event) {
+  .countdown("2020/05/01", function (event) {
       $(this).html(event.strftime('%D <em>days</em>'))
   });
 

@@ -10,17 +10,17 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
   });
 
   $("#hours")
-  .countdown("2020/10/27", function (event) {
+  .countdown("2020/05/01", function (event) {
       $(this).html(event.strftime('%H <em>hours</em>'))
   });
 
   $("#minutes")
-  .countdown("2020/10/27", function (event) {
+  .countdown("2020/05/01", function (event) {
       $(this).html(event.strftime('%M <em>minutes</em>'))
   });
 
   $("#seconds")
-  .countdown("2020/10/27", function (event) {
+  .countdown("2020/05/01", function (event) {
       $(this).html(event.strftime('%S <em>seconds</em>'))
   });
 
